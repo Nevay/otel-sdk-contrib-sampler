@@ -68,3 +68,20 @@ rule_based:
         delegate: # local_parent_not_sampled
     fallback: # root
 ```
+
+## AlwaysRecordingSampler
+
+Records all spans to allow the usage of span processors that generate metrics from spans.
+
+```php
+$sampler = new AlwaysRecordingSampler(
+    new ParentBasedSampler(new AlwaysOnSampler()),
+);
+```
+
+### Configuration
+
+```yaml
+always_recording:
+    sampler: # ...
+```

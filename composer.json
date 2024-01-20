@@ -23,6 +23,7 @@
         },
         "spi": {
             "Nevay\\OtelSDK\\Configuration\\ComponentProvider": [
+                "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplerAlwaysRecording",
                 "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplerRuleBased",
                 "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleAttribute",
                 "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleLink",
