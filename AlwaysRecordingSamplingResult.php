@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace Nevay\OtelSDK\Contrib\Sampler;
+namespace Nevay\OTelSDK\Contrib\Sampler;
 
-use Nevay\OtelSDK\Trace\SamplingResult;
+use Nevay\OTelSDK\Trace\SamplingResult;
 use OpenTelemetry\API\Trace\TraceStateInterface;
 
 /**

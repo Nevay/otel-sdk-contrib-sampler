@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace Nevay\OtelSDK\Contrib\Sampler;
+namespace Nevay\OTelSDK\Contrib\Sampler;
 
-use Nevay\OtelSDK\Common\Attributes;
-use Nevay\OtelSDK\Trace\Sampler;
-use Nevay\OtelSDK\Trace\SamplingResult;
-use Nevay\OtelSDK\Trace\Span\Kind;
+use Nevay\OTelSDK\Common\Attributes;
+use Nevay\OTelSDK\Trace\Sampler;
+use Nevay\OTelSDK\Trace\SamplingResult;
+use Nevay\OTelSDK\Trace\Span\Kind;
 use OpenTelemetry\Context\ContextInterface;
 use function sprintf;
 

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Nevay\OtelSDK\Contrib\Sampler\SamplingRule;
+namespace Nevay\OTelSDK\Contrib\Sampler\SamplingRule;
 
-use Nevay\OtelSDK\Common\Attributes;
-use Nevay\OtelSDK\Contrib\Sampler\SamplingRule;
-use Nevay\OtelSDK\Trace\Span\Kind;
+use Nevay\OTelSDK\Common\Attributes;
+use Nevay\OTelSDK\Contrib\Sampler\SamplingRule;
+use Nevay\OTelSDK\Trace\Span\Kind;
 use OpenTelemetry\Context\ContextInterface;
 use function preg_match;
 use function sprintf;

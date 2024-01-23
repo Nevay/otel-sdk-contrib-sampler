@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace Nevay\OtelSDK\Contrib\Sampler;
+namespace Nevay\OTelSDK\Contrib\Sampler;
 
-use Nevay\OtelSDK\Trace\Sampler;
+use Nevay\OTelSDK\Trace\Sampler;
 use function implode;
 use function sprintf;
 

@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
-namespace Nevay\OtelSDK\Contrib\Sampler\Configuration;
+namespace Nevay\OTelSDK\Contrib\Sampler\Configuration;
 
-use Nevay\OtelSDK\Configuration\ComponentProvider;
-use Nevay\OtelSDK\Configuration\ComponentProviderRegistry;
-use Nevay\OtelSDK\Configuration\Context;
-use Nevay\OtelSDK\Contrib\Sampler\SamplingRule;
-use Nevay\OtelSDK\Contrib\Sampler\SamplingRule\SpanKindRule;
-use Nevay\OtelSDK\Trace\Span\Kind;
+use Nevay\OTelSDK\Configuration\ComponentProvider;
+use Nevay\OTelSDK\Configuration\ComponentProviderRegistry;
+use Nevay\OTelSDK\Configuration\Context;
+use Nevay\OTelSDK\Contrib\Sampler\SamplingRule;
+use Nevay\OTelSDK\Contrib\Sampler\SamplingRule\SpanKindRule;
+use Nevay\OTelSDK\Trace\Span\Kind;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 
 final class SamplingRuleSpanKind implements ComponentProvider {

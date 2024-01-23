@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
-namespace Nevay\OtelSDK\Contrib\Sampler\Configuration;
+namespace Nevay\OTelSDK\Contrib\Sampler\Configuration;
 
 use InvalidArgumentException;
-use Nevay\OtelSDK\Configuration\ComponentProvider;
-use Nevay\OtelSDK\Configuration\ComponentProviderRegistry;
-use Nevay\OtelSDK\Configuration\Context;
-use Nevay\OtelSDK\Contrib\Sampler\SamplingRule;
-use Nevay\OtelSDK\Contrib\Sampler\SamplingRule\SpanNameRule;
+use Nevay\OTelSDK\Configuration\ComponentProvider;
+use Nevay\OTelSDK\Configuration\ComponentProviderRegistry;
+use Nevay\OTelSDK\Configuration\Context;
+use Nevay\OTelSDK\Contrib\Sampler\SamplingRule;
+use Nevay\OTelSDK\Contrib\Sampler\SamplingRule\SpanNameRule;
 use Symfony\Component\Config\Definition\Builder\ArrayNodeDefinition;
 use function is_string;
 use function preg_match;

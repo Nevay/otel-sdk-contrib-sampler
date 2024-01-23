@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nevay\\OtelSDK\\Contrib\\Sampler\\": ""
+            "Nevay\\OTelSDK\\Contrib\\Sampler\\": ""
         }
     },
     "extra": {
@@ -22,14 +22,14 @@
             "dev-main": "0.1.x-dev"
         },
         "spi": {
-            "Nevay\\OtelSDK\\Configuration\\ComponentProvider": [
-                "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplerAlwaysRecording",
-                "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplerRuleBased",
-                "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleAttribute",
-                "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleLink",
-                "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleParent",
-                "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleSpanKind",
-                "Nevay\\OtelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleSpanName"
+            "Nevay\\OTelSDK\\Configuration\\ComponentProvider": [
+                "Nevay\\OTelSDK\\Contrib\\Sampler\\Configuration\\SamplerAlwaysRecording",
+                "Nevay\\OTelSDK\\Contrib\\Sampler\\Configuration\\SamplerRuleBased",
+                "Nevay\\OTelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleAttribute",
+                "Nevay\\OTelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleLink",
+                "Nevay\\OTelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleParent",
+                "Nevay\\OTelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleSpanKind",
+                "Nevay\\OTelSDK\\Contrib\\Sampler\\Configuration\\SamplingRuleSpanName"
             ]
         }
     }
